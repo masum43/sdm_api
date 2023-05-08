@@ -1,29 +1,80 @@
 {
-"Ads": [
-{
-"select_ads": "yandex",
-"admob_interid": "ca-app-pub-3940256099942544/1033173712",
-"admob_bannerid": "ca-app-pub-3940256099942544/6300978111",
-"admob_app_open_ad_id": "ca-app-pub-3940256099942544/3419835294",
-"admob_native_ad_id": "ca-app-pub-3940256099942544/2247696110",
-"admob_rewarded_ad_id": "ca-app-pub-3940256099942544/5224354917",
-"yandex_inters_ad_id": "demo-interstitial-yandex",
-"yandex_rewarded_ad_id": "demo-rewarded-yandex",
-"fan_inter": "",
-"fan_banner": "",
-"unityGameID": "",
-"unity_inter": "",
-"unity_banner": "",
-"applovin_banner_ad_id": "",
-"applovin_inters_id": "d71072d21d41fd5d",
-"applovin_app_open_ad_id": "cb0a9fc1d51963d5",
-"applovin_native_ad_id": "fdcb5331bd509e69",
-"applovin_rewarded_ad_id": "",
-"ironsourceAppKey" : "",
-"LINK_REDIRECT" : "https://play.google.com/store/apps/details?id=com.apetrus.makeup",
-"STATUS_APP": "0",
-"interval": "1"
-
-}
-]
+  "ads_country_wise": [
+    {
+      "country_list": "bangladesh,india",
+      "unityGameID": "",
+      "ironsourceAppKey": "",
+      "banner": {
+        "select_ads": "admob",
+        "admob_bannerid": "ca-app-pub-3940256099942544/6300978111",
+        "fan_banner": "",
+        "unity_banner": "",
+        "applovin_banner_ad_id": ""
+      },
+      "interstitial": {
+        "select_ads": "admob",
+        "interval": "1",
+        "admob_interid": "ca-app-pub-3940256099942544/1033173712",
+        "fan_inter": "",
+        "yandex_inters_ad_id": "demo-interstitial-yandex",
+        "unity_inter": "",
+        "applovin_inters_id": "d71072d21d41fd5d"
+      },
+      "native": {
+        "select_ads": "admob",
+        "admob_native_ad_id": "ca-app-pub-3940256099942544/2247696110",
+        "applovin_native_ad_id": "fdcb5331bd509e69"
+      },
+      "rewarded": {
+        "select_ads": "admob",
+        "admob_rewarded_ad_id": "ca-app-pub-3940256099942544/5224354917",
+        "applovin_rewarded_ad_id": "",
+        "yandex_rewarded_ad_id": "demo-rewarded-yandex"
+      },
+      "appopen": {
+        "select_ads": "admob",
+        "admob_app_open_ad_id": "ca-app-pub-3940256099942544/3419835294",
+        "applovin_app_open_ad_id": "cb0a9fc1d51963d5"
+      }
+    },
+    {
+      "country_list": "usa,ksa",
+      "unityGameID": "",
+      "ironsourceAppKey": "",
+      "banner": {
+        "select_ads": "admob",
+        "admob_bannerid": "ca-app-pub-3940256099942544/6300978111",
+        "fan_banner": "",
+        "unity_banner": "",
+        "applovin_banner_ad_id": ""
+      },
+      "interstitial": {
+        "select_ads": "admob",
+        "interval": "1",
+        "admob_interid": "ca-app-pub-3940256099942544/1033173712",
+        "fan_inter": "",
+        "yandex_inters_ad_id": "demo-interstitial-yandex",
+        "unity_inter": "",
+        "applovin_inters_id": "d71072d21d41fd5d"
+      },
+      "native": {
+        "select_ads": "admob",
+        "admob_native_ad_id": "ca-app-pub-3940256099942544/2247696110",
+        "applovin_native_ad_id": "fdcb5331bd509e69"
+      },
+      "rewarded": {
+        "select_ads": "admob",
+        "admob_rewarded_ad_id": "ca-app-pub-3940256099942544/5224354917",
+        "applovin_rewarded_ad_id": "",
+        "yandex_rewarded_ad_id": "demo-rewarded-yandex"
+      },
+      "appopen": {
+        "select_ads": "admob",
+        "admob_app_open_ad_id": "ca-app-pub-3940256099942544/3419835294",
+        "applovin_app_open_ad_id": "cb0a9fc1d51963d5"
+      }
+    }
+  ],
+  "LINK_REDIRECT": "https://play.google.com/store/apps/details?id=com.apetrus.makeup",
+  "STATUS_APP": "0"
 }
